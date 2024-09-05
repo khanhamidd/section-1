@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p{color: rgb(132, 15, 15);font-size:40px;}
+    .myclass{
+    background #918d8d;;
+    }
+
+div{
+   
+    width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+div:hover {
+    width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+#myid{
+    font-size: 30px;
+    border: 2px solid red;
+text-align: right;
+}
+
+</style>
+<body>
+    <h1 style="color: rgb(64, 64, 218);text-align :center;text-decoration-line: overline;">internal css is used to style entire page at individual</h1>
+    <p>internal css is used to style entire page at once/p>
+        <p>name selector is use to select the element by their tag name</p>
+        <h2 class="myclass">class selector is used to select elment by their classes name</h2>
+        <h2 class="myclass">same class can be used on multiple tags also</h2>
+        <h4 id="myid">id selector is used to uniquely select a single element</h4>
+        <div></div>
+</body>
+</html>

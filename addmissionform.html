@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addmission form</title>
+</head>
+<style>
+    h1{text-align: center;}
+    button{text-align: center;}
+    </style>
+<body>
+    <h1>college addmission form</h1>
+    <form >
+    <label for="">student name</label>
+    <input type="text"required minlength="4">
+    <br><br>
+    <label for="">email address</label>
+    <input type="text">
+    <br><br>
+    <label for="">address</label>
+    <textarea rows="1" cols="4"></textarea>
+    <br><br>
+    <label for="">gender</label>
+    <input type="radio"name="gender">male
+    <input type="radio"name="gender">female
+    <br>
+    <br>
+    <label for="">course</label>
+    <select id="course" >
+    <option >mern stack</option>
+    <option >data science</option>
+    <option >data analytics</option>
+    <option >cloud computing</option>
+    <option >search engine optimization</option>
+</select>
+<br><br>
+<label for="">select college</label>
+<input type="text"list="college">
+<datalist id="college">
+    <option >bbd</option>
+    <option >integral</option>
+    <option >amity</option>
+    <option >aimt</option>
+</datalist>
+<br><br>
+<label for="">date of birth</label>
+<input type="datetime-local">
+<br><br>
+<details>
+    <summary>view term and condition</summary>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis unde quod sint officia quis. Eveniet ex animi eum quo?</p>
+</details>
+<input type="checkbox">
+<label for="">accept yerms and condition</label>
+<br><br>
+
+<button>submit</button>
+
+   </form>
+</body>
+</html>
