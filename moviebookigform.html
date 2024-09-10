@@ -1,83 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <style>
-    h1{text-align: center;}
-    button{text-align: center;}
+        body {
+            background-color: rgba(20, 81, 224, 0.475);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        button {
+            text-align: center;
+        }
+
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: medium;
+        }
+
+        .cards {
+            padding-left: 110px;
+        }
+
+        .img {}
     </style>
+    <link href="https://fonts.googleapis.com/css?family=SUSE:100,200,300,regular,500,600,700,800" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie ticket booking application</title>
-    <h1>MOVIE TICKET FORM</h1>
-    <img src="laila.jpg" width="300">
-    <img src="rock.jpg" width="350">
-    <img src="fivefeetapart.jpg" width="350">
-    <img src="rmen.jpg" width="300">
-    <br><br>
-    <form >
-       <label for="movie">movie</label>
-       <br>
-       <select id="movie">
-        <option value="laila majnu">laila majnu</option>
-        <option value="rockstar">rockstar</option>
-        <option value="five feet apart">five feet apart</option>
-        <option value="remember me">five feet apart</option>
-       </select>
-       <br><br>
-       <label for="audio">language</label>
-       <br>
-       <select id="language">
-       <option value="hindi">hindi</option>
-       <option value="engliish">english</option>
-    </select>
 
-    <br><br>
-    <label for="">no. of tickets</label>
-    <br>
-    <input type="text">
-    <br><br>
-    <label >date</label>
-    <br>
-    <input type="time">
-    <select id="AM">
-        <option value="AM">AM</option>
-        <option value="PM">PM</option>
-        </select>
-<br><br>
-<label >row</label>
-<br>
-<input type="text"required maxlength="1">
-<br><br>
-<label >seat</label>
-<br>
-<input type="number"required minlength="1">
-<br><br>
-<label for="">gender</label>
-<input type="radio"name="gender">male 
-<input type="radio"name="gender">female
-<br><br>
-<label for="">name</label>
-<br>
-<input type="text">
-<br><br>
-<label for="">phone no.</label>
-<br>
-<input type="tel">
-<br><br>
-<label for="">Email Id</label>
-<br>
-<input type="text" id="email" pattern=".+@example\.com" size="30" required />
-<br><br>
-<label for="">address</label>
-<textarea rows="1"cols="20"></textarea>
-<br>
-<br>
-<button>submit</button>
+    <h1 style="text-shadow:2px 2px 5px #000000b7;">MOVIE TICKET FORM</h1>
+    <div class="cards">
+        <img src="laila.jpg" width="296">
+        <img src="rock.jpg" width="334">
+        <img src="fivefeetapart.jpg" width="300">
+        <img src="rmen.jpg" width="308">
+        <br><br>
+    </div>
+    <div class="card">
+        <form>
+            <label for="movie">movie</label>
+            <br>
+            <select id="movie">
+                <option value="laila majnu">laila majnu</option>
+                <option value="rockstar">rockstar</option>
+                <option value="five feet apart">five feet apart</option>
+                <option value="remember me">five feet apart</option>
+            </select>
+            <br><br>
+            <label for="audio">language</label>
+            <br>
+            <select id="language">
+                <option value="hindi">hindi</option>
+                <option value="engliish">english</option>
+            </select>
+
+            <br><br>
+            <label for="">no. of tickets</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>date</label>
+            <br>
+            <input type="time">
+            <select id="AM">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+            <br><br>
+            <label>row</label>
+            <br>
+            <input type="text" required maxlength="1">
+            <br><br>
+            <label>seat</label>
+            <br>
+            <input type="number" required minlength="1">
+            <br><br>
+            <label for="">gender</label>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <br><br>
+            <label for="">name</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label for="">phone no.</label>
+            <br>
+            <input type="tel">
+            <br><br>
+            <label for="">Email Id</label>
+            <br>
+            <input type="text" id="email" pattern=".+@example\.com" size="30" required />
+            <br><br>
+            <label for="">address</label>
+            <br>
+            <textarea rows="1" cols="20"></textarea>
+            <br>
+            <br>
+            <button
+                style="background-color: rgba(222, 25, 25, 0.858);border-radius: 2px;color: aliceblue;margin-left: 60px;">submit</button>
 
 
-    </form>
+        </form>
+    </div>
 </head>
+
 <body>
-    
+
 </body>
+
 </html>

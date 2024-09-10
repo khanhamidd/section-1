@@ -7,7 +7,8 @@
  <link href="https://fonts.googleapis.com/css?family=SUSE:100,200,300,regular,500,600,700,800" rel="stylesheet" />
   <style>
     *{
-        font-family:'Courier New', Courier, monospace;
+        font-family:roboto;
+        font-size: large;
     }
     .card{
         border: 2px solid rgb(68, 18, 18);
@@ -16,6 +17,7 @@
         padding: 20px;
         border-radius: 10px;
         box-sizing: border-box;
+        background-color: aliceblue;
     }
     .formtitle{
         font: bold;
@@ -30,13 +32,44 @@
         align-items: center;
         height: 100vh;
         background-color: rgba(22, 120, 233, 0.306);
+        background-image:url('https://images.unsplash.com/photo-1616088410192-d1b123712994?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      background-size: 1080px;
     }
     .button{
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    
+    .text-input{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.463);
+        font-size: 20px;
+        border-bottom: 2px solid #6094b06b;
+        
+    }
+    .button{
+        margin-top: 20px;
+        background-color: crimson;
+        color: aliceblue;
+        border-radius: 10px;
+        width: 100%;
+
+    }
+    .link{
+        text-decoration: none;
+        color: crimson;
+        font-weight: bold;
+        
+    }
+    .link:hover{
+        text-decoration: underline;
+        color: blue;
+    }
   </style>
 </head>
 <body>
@@ -44,13 +77,14 @@
         <h3 class="formtitle">Login Form</h3>
         <form action="">
             <label for="">email address</label>
-            <br>
-            <input type="text" class="text input">
-            <br><br>
+            
+            <input type="text" class="text-input">
+            
             <label for="">password</label>
-            <br>
-            <input type="password" class="text input">
-            <br><br>
+        
+            <input type="password" class="text-input">
+            <a href="#" class="link">Forget Password</a>
+        
             <button  class="button">Login</button>
         </form>
     </div>
