@@ -5,28 +5,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body><!--  "bg-red-500 lg:bg-white" -->
     <main>
         <!-- hero section start -->
-        <section class="border border-red-500">
-            <div class="grid grid-cols-2 border-2 border-blue-500 w-[80%] mx-auto py-60 gap 10">
-                <div class="border border-green-500 space-y-6 my-auto">
-                    <h1 class="text-5xl font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+        <section class=" "> <!-- bg-red-300 -->
+            <div class="grid lg:grid-cols-2 border-2 border-blue-500 w-[80%] mx-auto mt-20 gap 10 rounded">
+                <div class="border border-green-500 space-y-6 ">
+                    <h1 class="text-4xl lg:text-5xl font-bold text-center lg:text-left">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit.</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem rerum id asperiores sint dolor
                         ipsam inventore, quis ipsum natus doloribus quaerat rem. Laudantium necessitatibus, id cum unde
                         animi suscipit.</p>
-<div class="flex gap-4">
-    <button type="button" class="px-4 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  rounded-md">Explore</button>
-    <button class="px-4 py-1 border border-indigo-500  rounded-md">create account</button>
-</div>
+                    <div class="flex gap-4 justify-center lg:justify-start">
+                        <button type="button"
+                            class="px-4 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  rounded-md">
+                            <i class="fa-brands fa-wpexplorer"></i>&nbsp;
+                            Explore</button>
+                        <button class="px-4 py-1 border border-indigo-500  rounded-md">
+                            <i class="fa-solid fa-user"></i>&nbsp;
+                            Create account</button>
+                    </div>
                 </div>
-                <div class="border border-yellow-500"> <img src="https://i.pinimg.com/564x/22/f8/e9/22f8e99314122f23f7277605d85a76fa.jpg" alt=""></div>
-               
+                <div class="border border-yellow-500 "> <img class="w-full mt-10 lg:mt-0"
+                        src="https://i.pinimg.com/564x/22/f8/e9/22f8e99314122f23f7277605d85a76fa.jpg" alt=""></div>
+
             </div>
         </section>
         <!-- hero section end -->
+        <section class="w-[80%] mx-auto">
+            <h1 class="text-center font-bold text-4xl my-6">our services</h1>
+            <div class="grid lg:grid-cols-3  gap-5">
+                <div class="shadow-lg rounded-lg border border-indigo-300 space-y-3 p-5">
+                    <img src="undraw_mobile_analytics_twab.svg" alt="">
+                    <h3 class="text-3xl font-bold">service title 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea.</p>
+                    <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded-lg ">learn more</button>
+                </div>
+                <div class="shadow-lg rounded-lg border border-indigo-300 space-y-3 p-5">
+                    <img src="undraw_mobile_analytics_twab.svg" alt="">
+                    <h3 class="text-3xl font-bold">service title 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea.</p>
+                    <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded-lg ">learn more</button>
+                </div>
+                <div class="shadow-lg rounded-lg border border-indigo-300 space-y-3 p-5">
+                    <img src="undraw_mobile_analytics_twab.svg" alt="">
+                    <h3 class="text-3xl font-bold">service title 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea.</p>
+                    <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded-lg ">learn more</button>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="w-[80%] mx-auto py-6">
+        <div class="grid lg:grid-cols-12  ">
+            <div class="col-span-12 lg:col-span-4">
+                <img class="w-full" src=" undraw_mobile_analytics_twab.svg" alt="">
+            </div>
+            <div class="col-span-12 lg:col-span-8 my-auto">
+                <h3 class="text-3xl font-bold my-4 text-center lg:text-left">feature 1</h3>
+                <p class="text-center lg:text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates ullam consectetur laboriosam.
+                    Ipsa doloribus quae ipsam, vero, perspiciatis consectetur repudiandae illum veritatis porro
+                    excepturi harum reprehenderit inventore, quas fugiat deserunt.</p>
+                    <button class="bg-violet-500 text-white px-5 py-3 rounded-lg mt-5 text-lg w-full lg:w-auto">action</button>
+            </div>
+        </div> 
+          <div class="grid lg:grid-cols-12  ">
+            <div class="col-span-12 lg:col-span-4 order-first lg:order-last">
+                <img class="w-full" src=" undraw_mobile_analytics_twab.svg" alt="">
+            </div>
+         
+            <div class="col-span-12 lg:col-span-8 my-auto">
+                <h3 class="text-3xl font-bold my-4 text-center lg:text-left">feature 1</h3>
+                <p class="text-center lg:text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates ullam consectetur laboriosam.
+                    Ipsa doloribus quae ipsam, vero, perspiciatis consectetur repudiandae illum veritatis porro
+                    excepturi harum reprehenderit inventore, quas fugiat deserunt.</p>
+                    <button class="bg-violet-500 text-white px-5 py-3 rounded-lg mt-5 text-lg w-full lg:w-auto">action</button>
+            </div>
+            
+        </div>
+        <div class="grid lg:grid-cols-12  ">
+            <div class="col-span-12 lg:col-span-4">
+                <img class="w-full" src=" undraw_mobile_analytics_twab.svg" alt="">
+            </div>
+            <div class="col-span-12 lg:col-span-8 my-auto">
+                <h3 class="text-3xl font-bold my-4 text-center lg:text-left">feature 1</h3>
+                <p class="text-center lg:text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates ullam consectetur laboriosam.
+                    Ipsa doloribus quae ipsam, vero, perspiciatis consectetur repudiandae illum veritatis porro
+                    excepturi harum reprehenderit inventore, quas fugiat deserunt.</p>
+                    <button class="bg-violet-500 text-white px-5 py-3 rounded-lg mt-5 text-lg w-full lg:w-auto">action</button>
+            </div>
+        </div> 
+        
+    </section>
+
+     
     </main>
 </body>
 
